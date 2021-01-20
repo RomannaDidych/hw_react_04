@@ -15,7 +15,7 @@ function App() {
           
         <Router className= 'router'>   
                <div className='nav'>
-                  <NavLink className='app-link' to='/' activeClassName='active-link'>Головна</NavLink>
+                  <NavLink className='app-link' to='/main' activeClassName='active-link'>Головна</NavLink>
                   <NavLink className='app-link' to='/posts' activeClassName='active-link'>Публікації</NavLink>
                   <NavLink className='app-link' to='/pictures' activeClassName='active-link'>Галерея</NavLink>
                   <NavLink className='app-link' to='/contacts' activeClassName='active-link'>Contacts</NavLink>                 

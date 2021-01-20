@@ -36,7 +36,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;  
-  background-color:   #dbdbf0;
+  background-color:   #8585ad;/*#dbdbf0;*/
   z-index: 3; 
 }
 .app-link{

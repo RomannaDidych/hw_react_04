@@ -52,8 +52,8 @@ const Single = (props) => {
   if (currentContact.gender === "male") {
     gender = "чоловіча";
   } else {
-    if (currentContact.gender === "жіноча") {
-      gender = "female";
+    if (currentContact.gender === "female") {
+      gender = "жіноча";
     } else {
       gender = "невідома";
     }
