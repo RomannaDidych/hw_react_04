@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+.container{
+	width: 90%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;	
+}
+
+h2{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 60px;
+	color: #9966ff;
+}
+
+.flex,
+.flex-square{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.flex-square{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;	
+	justify-content: space-around;
+}
+.picture{
+	width: 500px;	
+}
+.img{
+	width: 100%;
+	object-fit: cover;
+}
